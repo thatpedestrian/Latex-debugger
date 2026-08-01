@@ -2,6 +2,8 @@
 
 AI-powered LaTeX file debugger using Gemini 3.5 Flash. Fix syntax errors, indentation, spacing, and common warnings without changing your document's content.
 
+[View Patch Notes](PATCHNOTES.md)
+
 ## Features
 
 - **Syntax Fixing**: Unmatched braces, missing `$`, environment issues
@@ -22,8 +24,8 @@ AI-powered LaTeX file debugger using Gemini 3.5 Flash. Fix syntax errors, indent
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/latex-debugger.git
-cd latex-debugger
+git clone https://github.com/thatpedestrian/Latex-debugger.git
+cd Latex-debugger
 
 # Install dependencies
 pip install -e .
@@ -74,6 +76,7 @@ latex-debug help-me
 | `--pattern GLOB` | File pattern to match (e.g., "*.tex") |
 | `--api-key KEY` | Specify API key directly |
 | `--restore <file>` | Restore file from .bak backup |
+| `--no-interactive` | Skip file selection, fix all files |
 
 ## Configuration
 
@@ -155,4 +158,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-If you encounter any issues, please [open an issue](https://github.com/yourusername/latex-debugger/issues) on GitHub.
+If you encounter any issues, please [open an issue](https://github.com/thatpedestrian/Latex-debugger/issues) on GitHub.
